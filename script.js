@@ -17,7 +17,7 @@ predictButton.addEventListener('click', () => {
 
   const numberValue = parseInt(number);
   const isDivisibleBy3 = numberValue % 3 === 0;
-  const predictionText = isDivisibleBy3 ? 'Big' : 'Small';
+  const predictionText = isDivisibleBy3 ? 'BIG' : 'SMALL';
 
   predictionResult.textContent = predictionText;
   predictionResult.classList.remove('visible');
